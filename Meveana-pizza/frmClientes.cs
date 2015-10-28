@@ -19,7 +19,7 @@ namespace Meveana_pizza
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != "123")
+            if (textBox1.Text == "123")
             {
                 grpClientes.Dock = DockStyle.Fill;
                 grpClientes.Visible = true;

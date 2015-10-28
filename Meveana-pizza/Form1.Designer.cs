@@ -73,6 +73,7 @@
             this.btnEntregadores.Name = "btnEntregadores";
             this.btnEntregadores.Size = new System.Drawing.Size(36, 36);
             this.btnEntregadores.Text = "Entregadores";
+            this.btnEntregadores.Click += new System.EventHandler(this.btnEntregadores_Click);
             // 
             // toolStripSeparator1
             // 
@@ -87,6 +88,7 @@
             this.btnPedidos.Name = "btnPedidos";
             this.btnPedidos.Size = new System.Drawing.Size(36, 36);
             this.btnPedidos.Text = "Pedidos";
+            this.btnPedidos.Click += new System.EventHandler(this.btnPedidos_Click);
             // 
             // btnProdutos
             // 
@@ -96,6 +98,7 @@
             this.btnProdutos.Name = "btnProdutos";
             this.btnProdutos.Size = new System.Drawing.Size(36, 36);
             this.btnProdutos.Text = "Produtos";
+            this.btnProdutos.Click += new System.EventHandler(this.btnProdutos_Click);
             // 
             // pictureBox1
             // 
@@ -119,7 +122,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
             this.Name = "frmMain";
-            this.Text = "Form1";
+            this.Text = "Meveana PizzaControl";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

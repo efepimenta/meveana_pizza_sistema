@@ -12,3 +12,4 @@ C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Meveana-pizza\Meveana-pizza
 C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Meveana-pizza\Meveana-pizza\obj\Debug\Meveana_pizza.frmTerceirizados.resources
 C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Meveana-pizza\Meveana-pizza\obj\Debug\Meveana_pizza.frmProdutos.resources
 C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Meveana-pizza\Meveana-pizza\obj\Debug\Meveana_pizza.frmPedidos.resources
+C:\Users\Fabio\Documents\Visual Studio 2015\Projects\Meveana-pizza\Meveana-pizza\bin\Debug\System.Net.Http.dll

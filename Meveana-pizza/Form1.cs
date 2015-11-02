@@ -52,5 +52,14 @@ namespace Meveana_pizza
             pedidos.Show();
             btnPedidos.Enabled = false;
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            frmRelatorio relatorio = new frmRelatorio();
+            pictureBox1.Visible = false;
+            relatorio.MdiParent = this;
+            relatorio.Show();
+            btnRelatorio.Enabled = false;
+        }
     }
 }

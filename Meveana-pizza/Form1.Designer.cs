@@ -36,6 +36,7 @@
             this.btnPedidos = new System.Windows.Forms.ToolStripButton();
             this.btnProdutos = new System.Windows.Forms.ToolStripButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnRelatorio = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -48,7 +49,8 @@
             this.btnEntregadores,
             this.toolStripSeparator1,
             this.btnPedidos,
-            this.btnProdutos});
+            this.btnProdutos,
+            this.btnRelatorio});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(933, 39);
@@ -111,6 +113,16 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // btnRelatorio
+            // 
+            this.btnRelatorio.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnRelatorio.Image = ((System.Drawing.Image)(resources.GetObject("btnRelatorio.Image")));
+            this.btnRelatorio.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnRelatorio.Name = "btnRelatorio";
+            this.btnRelatorio.Size = new System.Drawing.Size(36, 36);
+            this.btnRelatorio.Text = "toolStripButton1";
+            this.btnRelatorio.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -140,6 +152,7 @@
         public System.Windows.Forms.ToolStripButton btnProdutos;
         public System.Windows.Forms.ToolStripButton btnPedidos;
         public System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripButton btnRelatorio;
     }
 }
 
